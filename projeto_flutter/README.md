@@ -1,16 +1,41 @@
 # projeto_flutter
 
-A new Flutter project.
+Projeto em Flutter para a disciplina de Desenvolvimento de Aplicações Móveis.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+RoleConnect
 
-A few resources to get you started if this is your first Flutter project:
+- Tela de Login
+	- email (texto)
+	- senha (texto)
+	- botão entrar (valida se as credenciais são válidas -> Home (Usuário/Estabelecimento))
+	- botão cadastre-se (-> Tela de Cadastro)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Tela de Cadastro
+	- Usuário/Estabelecimento (Switch)
+	- Cadastro de Usuário
+		- Nome Completo (texto)
+		- CPF (texto com máscara)
+		- Data de Nascimento (Date)
+		- Telefone (texto com máscara)
+		- email (texto com validação)
+		- confirmar email (texto com comparação)
+		- senha (texto com validação)
+		- confirmar senha (texto com comparação)
+	- Cadastro de Estabelecimento
+		- Nome do Estabelecimento (texto)
+		- CNPJ (texto com máscara)
+		- Telefone (texto com máscara)
+		- Endereço (texto)
+		- Horário de Funcionamento (texto)
+		- email (texto com validação)
+		- confirmar email (texto com comparação)
+		- senha (texto com validação)
+		- confirmar senha (texto com comparação)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Tela Home
+	- Home de Usuário
+		- plota mapa na tela, com a localização atual do usuário e os estabelcimentos próximos são marcados no mapa
+	- Home de Estabelecimento
+		- exibe as informações do estabelecimento e permite editá-las
